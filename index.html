@@ -23,6 +23,8 @@
             type="image/jpg"
             sizes="16x16"
         />
+
+        <!-- Fontawesome for icons -->
         <script
             src="https://kit.fontawesome.com/b23c8be936.js"
             crossorigin="anonymous"
@@ -31,13 +33,36 @@
 
 
     <body>
+      <!-- Navbar -->
         <div class="container">
+          <nav class="navbar mb-1 navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand" href="#"><i class="fas fa-plane-departure"></i>&nbspTour and Travel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i>&nbspDashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-home"></i>&nbspHome</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-info-circle"></i>&nbspAbout</a>
+                </li>    
+              </ul>
+            </div>  
+          </nav>
+
         <!-- Carousel -->
-        <div id="demo" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000" data-pause="false">
+        <div id="demo" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000" data-pause="false">
             <ul class="carousel-indicators">
               <li data-target="#demo" data-slide-to="0" class="active"></li>
               <li data-target="#demo" data-slide-to="1"></li>
               <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-caption" style="top: 50%; transform: translateY(-50%); bottom: initial">
@@ -52,6 +77,12 @@
               </div>
               <div class="carousel-item">
                 <img src="images/kolkata.jpg" alt="New York">
+              </div>
+              <div class="carousel-item">
+                <img src="images/amritsar.jpg" alt="New York">
+              </div>
+              <div class="carousel-item">
+                <img src="images/chitkul.jpg" alt="New York">
               </div>
             </div>
           </div>
