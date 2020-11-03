@@ -1,4 +1,14 @@
+.cont {
+    background-color: #eaecee;
+}
 .carousel-inner img {
     width: 100%;
     height: 100%;
+}
+.location {
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }

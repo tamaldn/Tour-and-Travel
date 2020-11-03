@@ -1,91 +1,196 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tour&Travel</title>
-        <link rel="stylesheet" href="styles.css" />
+  <head>
+    <title>Tour&Travel</title>
+    <link rel="stylesheet" href="styles.css" />
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-        <!-- Bootstras JS -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Bootstras JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="icon"
-            href="images/logo.png"
-            type="image/jpg"
-            sizes="16x16"
-        />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo.png" type="image/jpg" sizes="16x16" />
 
-        <!-- Fontawesome for icons -->
-        <script
-            src="https://kit.fontawesome.com/b23c8be936.js"
-            crossorigin="anonymous"
-        ></script>
-    </head>
+    <!-- Fontawesome for icons -->
+    <script src="https://kit.fontawesome.com/b23c8be936.js" crossorigin="anonymous"></script>
+  </head>
 
 
-    <body>
-      <!-- Navbar -->
-        <div class="container">
-          <nav class="navbar mb-1 navbar-expand-md bg-dark navbar-dark">
-            <a class="navbar-brand" href="#"><i class="fas fa-plane-departure"></i>&nbspTour and Travel</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i>&nbspDashboard</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-home"></i>&nbspHome</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-info-circle"></i>&nbspAbout</a>
-                </li>    
-              </ul>
-            </div>  
-          </nav>
+  <body style="background-color: #EAECEE;">
 
-        <!-- Carousel -->
-        <div id="demo" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000" data-pause="false">
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-              <li data-target="#demo" data-slide-to="3"></li>
-              <li data-target="#demo" data-slide-to="4"></li>
-            </ul>
-            <div class="carousel-inner">
-                <div class="carousel-caption" style="top: 50%; transform: translateY(-50%); bottom: initial">
-                    <h3>Visit 100+ desinations accross India</h3>
-                    <p></p>
-                </div>   
-              <div class="carousel-item active">
-                <img src="images/goa.jpg" alt="Los Angeles"> 
-              </div>
-              <div class="carousel-item">
-                <img src="images/shimla.jpg" alt="Chicago"> 
-              </div>
-              <div class="carousel-item">
-                <img src="images/kolkata.jpg" alt="New York">
-              </div>
-              <div class="carousel-item">
-                <img src="images/amritsar.jpg" alt="New York">
-              </div>
-              <div class="carousel-item">
-                <img src="images/chitkul.jpg" alt="New York">
+    <!-- Navbar -->
+    <div class="container cont">
+      <nav class="navbar mb-1 navbar-expand-md bg-danger navbar-dark">
+        <a class="navbar-brand" href="#"><i class="fas fa-plane-departure"></i>&nbspTour&Travel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i>&nbspDashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-home"></i>&nbspHome</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-info-circle"></i>&nbspAbout</a>
+            </li>    
+          </ul>
+        </div>  
+      </nav>
+
+      <!-- Carousel -->
+      <div id="demo" class="carousel mb-1 slide carousel-fade" data-ride="carousel" data-interval="3000" data-pause="false">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+          <li data-target="#demo" data-slide-to="4"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-caption" style="top: 50%; transform: translateY(-50%); bottom: initial">
+            <h3>Visit 100+ Destinations Accross India</h3>
+          </div>   
+          <div class="carousel-item active">
+            <img src="images/goa.jpg" alt="Los Angeles"> 
+          </div>
+          <div class="carousel-item">
+            <img src="images/shimla.jpg" alt="Chicago"> 
+          </div>
+          <div class="carousel-item">
+          <img src="images/kolkata.jpg" alt="New York">
+          </div>
+          <div class="carousel-item">
+            <img src="images/amritsar.jpg" alt="New York">
+          </div>
+          <div class="carousel-item">
+            <img src="images/chitkul.jpg" alt="New York">
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="row m-0">
+        <div class="col-3 p-0">
+          <div class="card bg-light text-dark">
+            <div class="card-body">
+              <h4 class="card-title">Browse By Theme</h4>
+              <a class="card-link text-dark" href="#">Adventure</a><br>
+              <a class="card-link text-dark" href="#">Family Tour</a><br>
+              <a class="card-link text-dark" href="#">Weekend Tour</a>
+            </div>
+          </div>
+
+          <div class="card mt-1 bg-light text-dark">
+            <div class="card-body">
+              <h4 class="card-title">Browse By Location</h4>
+              <a class="card-link text-dark" href="#">Delhi</a><br>
+              <a class="card-link text-dark" href="#">Goa</a><br>
+              <a class="card-link text-dark" href="#">Himachal Pradesh</a>
+            </div>
+          </div>
+        </div>
+        <div class="col p-0">
+          <div class="card bg-light text-dark ml-1">
+            <div class="card-body">
+              <h4 class="card-title">Popular Places To Visit</h4>
+
+              <div class="card-body">
+                <div class="row mb-2">
+                  <div class="col">
+                    <a href="#">
+                      <div class="card">
+                        <img class="card-img-top" src="/images/places/agra.jpg">
+                        <p class="p-1 location">Agra</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#">
+                      <div class="card">
+                        <img class="card-img-top" src="/images/places/jaipur.jpg">
+                        <p class="p-1 location">Jaipur</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#">
+                      <div class="card">
+                        <img class="card-img-top" src="/images/places/manali.jpg">
+                        <p class="p-1 location">manali</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="row mb-2">
+                  <div class="col">
+                    <a href="#">
+                      <div class="card">
+                        <img class="card-img-top" src="/images/places/shimla.jpg">
+                        <p class="p-1 location">Shimla</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#">
+                      <div class="card">
+                        <img class="card-img-top" src="/images/places/goa.jpg">
+                        <p class="p-1 location">Goa</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#">
+                      <div class="card">
+                        <img class="card-img-top" src="/images/places/delhi.jpg">
+                        <p class="p-1 location">Delhi</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="row mb-2">
+                  <div class="col">
+                    <a href="#">
+                      <div class="card">
+                        <img class="card-img-top" src="/images/places/kasol.jpg">
+                        <p class="p-1 location">Kasol</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#">
+                      <div class="card">
+                        <img class="card-img-top" src="/images/places/andaman.jpg">
+                        <p class="p-1 location">And & Ni Is.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#">
+                      <div class="card">
+                        <img class="card-img-top" src="/images/places/mumbai.jpg">
+                        <p class="p-1 location">Mumbai</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          </div>
-    </body>
+        </div>
+      </div>
+    </div>
+  <body>
 </html>
