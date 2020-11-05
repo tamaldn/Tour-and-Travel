@@ -12,3 +12,11 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
+#paraToggle {
+    cursor: pointer;
+    text-align: center;
+    color: red;
+}
+.cust-img:hover {
+    opacity: 0.7;
+}
