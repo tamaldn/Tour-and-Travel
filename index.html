@@ -37,7 +37,7 @@
 	<body style="background-color: #eaecee">
 		<!-- Navbar -->
 		<div class="container cont">
-			<nav class="navbar mb-1 navbar-expand-md bg-danger navbar-dark">
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
 				<a class="navbar-brand" href="#"><img src="/images/logo.png" /></a>
 				<button
 					class="navbar-toggler"
@@ -65,13 +65,59 @@
 							>
 						</li>
 					</ul>
+					<ul class="navbar-nav" style="margin-left: auto">
+						<li class="nav-item">
+							<div class="input-group" style="height: 50%; width: auto">
+								<input
+									id="myInput"
+									onkeyup="search()"
+									type="text"
+									class="form-control"
+									placeholder="Type here..."
+								/>
+								<div class="input-group-append">
+									<button class="btn btn-success" type="submit">Search</button>
+								</div>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</nav>
+
+			<ul id="myUL" class="p-0">
+				<li><a href="#">Adventure</a></li>
+				<li><a href="#">Trekking</a></li>
+				<li><a href="#">Family Tour</a></li>
+				<li><a href="#">Weekend Getaways</a></li>
+				<li><a href="#">Luxury Packages</a></li>
+				<li><a href="#">Wildlife Tour</a></li>
+				<li><a href="#">Beach Vacations</a></li>
+				<li><a href="#">Hill Stations</a></li>
+				<li><a href="#">Winter Tour</a></li>
+				<li><a href="#">Summer Tour</a></li>
+				<li><a href="#">Honeymoon Packages</a></li>
+				<li><a href="#">Religious Places</a></li>
+				<li><a href="#">Delhi</a></li>
+				<li><a href="#">Goa</a></li>
+				<li><a href="#">Himachal</a></li>
+				<li><a href="#">Kashmir</a></li>
+				<li><a href="#">Munnar</a></li>
+				<li><a href="#">Kochi</a></li>
+				<li><a href="#">Srinagar</a></li>
+				<li><a href="#">Gangtok</a></li>
+				<li><a href="#">Kolkata</a></li>
+				<li><a href="#">Uttarakhand</a></li>
+				<li><a href="#">Darjeeling</a></li>
+				<li><a href="#">North East</a></li>
+				<li><a href="#">Jaipur</a></li>
+				<li><a href="#">Amritsar</a></li>
+				<li><a href="#">Guwahati</a></li>
+			</ul>
 
 			<!-- Carousel -->
 			<div
 				id="demo"
-				class="carousel mb-1 slide carousel-fade"
+				class="carousel mb-1 mt-1 slide carousel-fade"
 				data-ride="carousel"
 				data-interval="3000"
 				data-pause="false"
@@ -162,7 +208,7 @@
 
 			<!-- Main Content -->
 			<div class="row m-0">
-				<div class="col-3 p-0">
+				<div class="col-md-3 p-0">
 					<div class="card bg-light text-dark">
 						<div class="card-body">
 							<h4 class="card-title">Browse By Theme</h4>
@@ -207,14 +253,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="col p-0">
+				<div class="col-md p-0">
 					<div class="card bg-light text-dark ml-1">
 						<div class="card-body">
 							<h4 class="card-title">Popular Places To Visit</h4>
 
 							<div class="card-body">
 								<div class="row mb-1">
-									<div class="col">
+									<div class="col-md">
 										<a href="#">
 											<div class="card">
 												<img
@@ -225,8 +271,8 @@
 											</div>
 										</a>
 									</div>
-									<div class="col">
-										<a href="#">
+									<div class="col-md">
+										<a href="pages/jaipur.html">
 											<div class="card">
 												<img
 													class="card-img-top cust-img"
@@ -236,7 +282,7 @@
 											</div>
 										</a>
 									</div>
-									<div class="col">
+									<div class="col-md">
 										<a href="#">
 											<div class="card">
 												<img
@@ -250,7 +296,7 @@
 								</div>
 
 								<div class="row mb-1">
-									<div class="col">
+									<div class="col-md">
 										<a href="#">
 											<div class="card">
 												<img
@@ -261,7 +307,7 @@
 											</div>
 										</a>
 									</div>
-									<div class="col">
+									<div class="col-md">
 										<a href="#">
 											<div class="card">
 												<img
@@ -272,7 +318,7 @@
 											</div>
 										</a>
 									</div>
-									<div class="col">
+									<div class="col-md">
 										<a href="#">
 											<div class="card">
 												<img
@@ -286,7 +332,7 @@
 								</div>
 
 								<div class="row">
-									<div class="col">
+									<div class="col-md">
 										<a href="#">
 											<div class="card">
 												<img
@@ -297,7 +343,7 @@
 											</div>
 										</a>
 									</div>
-									<div class="col">
+									<div class="col-md">
 										<a href="#">
 											<div class="card">
 												<img
@@ -308,7 +354,7 @@
 											</div>
 										</a>
 									</div>
-									<div class="col">
+									<div class="col-md">
 										<a href="#">
 											<div class="card">
 												<img
@@ -326,18 +372,18 @@
 				</div>
 			</div>
 			<div class="row bg-dark m-0 p-0 text-light">
-				<div class="col m-0 p-0 pt-2 text-center">
+				<div class="col-md m-0 p-0 pt-2 text-center">
 					<img src="/images/logo.png" />
 					<h6>Tour . Hotel . Sightseeing</h6>
 					<h6>Car . Volvo . Guide</h6>
 					<p>Copyright@2020</p>
 				</div>
-				<div class="col p-0 pt-4 m-0 text-center">
+				<div class="col-md p-0 pt-4 m-0 text-center">
 					<h6><i class="fas fa-map-marker-alt"></i>&nbspNew Delhi, India</h6>
 					<h6><i class="fas fa-envelope"></i>&nbspsupport@drmdest.com</h6>
 					<h6><i class="fas fa-phone-alt"></i>&nbsp011-12345678</h6>
 				</div>
-				<div class="col p-0 pt-2 m-0 text-center">
+				<div class="col-md p-0 pt-2 m-0 text-center">
 					<h6>ABOUT THE WEBSITE</h6>
 					<p>
 						Dream Destination provides best<br />tourism services accross India.
