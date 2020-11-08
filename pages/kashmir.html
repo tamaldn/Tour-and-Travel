@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Trekking: Dream Destination</title>
+		<title>Kashmir: Dream Destination</title>
 		<style>
 			.location {
 				width: 100%;
@@ -47,7 +47,7 @@
 	</head>
 	<body style="background-color: #eaecee">
 		<div class="container" style="background-color: #eaecee">
-			<nav class="navbar mb-1 navbar-expand-md bg-success navbar-dark">
+			<nav class="navbar mb-1 navbar-expand-md bg-danger navbar-dark">
 				<a class="navbar-brand" href="#"><img src="/images/logo.png" /></a>
 				<button
 					class="navbar-toggler"
@@ -73,19 +73,55 @@
 				</div>
 			</nav>
 
-			<div class="card bg-light text-primary text-center pt-3 mt-1">
-				<h3 class="card-title">Trekking Destinations In India</h3>
+			<div class="card bg-light text-center pt-3 mt-1">
+				<h3 class="card-title text-primary">Kashmir</h3>
 				<div class="card-body">
+					<p style="font-size: 120%; text-align: justify">
+						Jammu and Kashmir is a union territory of India locked in Himalayan
+						Mountains. Jammu and Kashmir is home to several Valleys such as the
+						Kashmir Valley, Chenab Valley, Sindh Valley and Lidder Valley. Some
+						major tourist attractions in Jammu and Kashmir are Srinagar, the
+						Mughal Gardens, Gulmarg, Pahalgam, Patnitop, Sanasar, Mansar,
+						Surinsar, Bhaderwah,<span id="dots">...</span
+						><span id="more" style="display: none">
+							Jantroon (Dhar), Jai Valley, Chinta Valley, Akhnoor. Kashmir is
+							also known as Switzerland of Asia. Kashmir is located mainly in
+							the Himalayas. To of this Union Territory of India are the two
+							Indian states of Himachal Pradesh and Punjab. Jammu and Kashmir is
+							bounded on the north by the Pakistan-controlled Gilgit-Baltistan
+							region and on the east by the Union Territory of Ladakh. Kashmir
+							is basically a popular eye-catching place for visitors from all
+							over the world. Millions of visitors from all over the world flock
+							here every year to enjoy its beauty.Jammu is the winter capital of
+							state and known for its temples, particularly The Vaishno Devi
+							Temple in Katra which is visited by over 1 crore (10 million)
+							pilgrims every year, making Jammu the most visited part of Jammu
+							and Kashmir State. Shikaras on Dal Lake in Kashmir region. Kashmir
+							Valley is visited for its gardens, lakes, and pristine streams and
+							landscapes. Kashmir Valley consists of many ancient temples and
+							shrines which makes it an important site for Hindus and
+							Buddhists.</span
+						>
+					</p>
+					<div class="text-center">
+						<a
+							onclick="toggleText()"
+							style="cursor: pointer; text-align: center; color: red"
+							id="paraToggle"
+							>Read more</a
+						>
+					</div>
+					<br />
 					<div class="row mb-2">
 						<div class="col">
 							<a href="#">
 								<div class="card">
 									<img
-										src="../images/places/kanchenjunga.jpg"
+										src="../images/places/kashmir/srinagar.jpg"
 										alt=""
 										class="card-img-top cust-img"
 									/>
-									<p class="p-1 location">Kanchenjunga</p>
+									<p class="p-1 location">Srinagar</p>
 								</div>
 							</a>
 						</div>
@@ -93,11 +129,11 @@
 							<a href="#">
 								<div class="card">
 									<img
-										src="../images/places/rupin-pass.jpg"
+										src="../images/places/kashmir/gulmarg.jpg"
 										alt=""
 										class="card-img-top cust-img"
 									/>
-									<p class="p-1 location">Rupin Pass</p>
+									<p class="p-1 location">Gulmarg</p>
 								</div>
 							</a>
 						</div>
@@ -105,89 +141,11 @@
 							<a href="#">
 								<div class="card">
 									<img
-										src="../images/places/triund.jpg"
+										src="../images/places/kashmir/pahalgam.jpg"
 										alt=""
 										class="card-img-top cust-img"
 									/>
-									<p class="p-1 location">Triund</p>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col">
-							<a href="#">
-								<div class="card">
-									<img
-										src="../images/places/gomukh-tapovan.jpg"
-										alt=""
-										class="card-img-top cust-img"
-									/>
-									<p class="p-1 location">Gomukh Tapovan</p>
-								</div>
-							</a>
-						</div>
-						<div class="col">
-							<a href="#">
-								<div class="card">
-									<img
-										src="../images/places/hampta-pass.jpg"
-										alt=""
-										class="card-img-top cust-img"
-									/>
-									<p class="p-1 location">Hampta Pass</p>
-								</div>
-							</a>
-						</div>
-						<div class="col">
-							<a href="#">
-								<div class="card">
-									<img
-										src="../images/places/rajmachi-trek.jpg"
-										alt=""
-										class="card-img-top cust-img"
-									/>
-									<p class="p-1 location">Rajmachi Trek</p>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col">
-							<a href="#">
-								<div class="card">
-									<img
-										src="../images/places/dzongri-trek.jpg"
-										alt=""
-										class="card-img-top cust-img"
-									/>
-									<p class="p-1 location">Dzongri Trek</p>
-								</div>
-							</a>
-						</div>
-						<div class="col">
-							<a href="#">
-								<div class="card">
-									<img
-										src="../images/places/lamayuru.jpg"
-										alt=""
-										class="card-img-top cust-img"
-									/>
-									<p class="p-1 location">Lamayuru</p>
-								</div>
-							</a>
-						</div>
-						<div class="col">
-							<a href="#">
-								<div class="card">
-									<img
-										src="../images/places/har-ki-dun-valley.jpg"
-										alt=""
-										class="card-img-top cust-img"
-									/>
-									<p class="p-1 location">Har Ki Dun Valley</p>
+									<p class="p-1 location">Pahalgam</p>
 								</div>
 							</a>
 						</div>
@@ -221,4 +179,21 @@
 			</div>
 		</div>
 	</body>
+	<script>
+		function toggleText() {
+			var dots = document.getElementById("dots");
+			var moreText = document.getElementById("more");
+			var btnText = document.getElementById("paraToggle");
+
+			if (dots.style.display === "none") {
+				dots.style.display = "inline";
+				btnText.innerHTML = "Read more";
+				moreText.style.display = "none";
+			} else {
+				dots.style.display = "none";
+				btnText.innerHTML = "Read less";
+				moreText.style.display = "inline";
+			}
+		}
+	</script>
 </html>
